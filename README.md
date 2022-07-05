@@ -1,6 +1,6 @@
 # GWAS_scripts
 
-This is where I will post my GWAS scripts
+Updated from Lavinia Paternoster's code https://github.com/epxlp/GWAS_scripts for use on Blue Crystal 4 and with VCF files
 
 <b>FILE DESCRIPTIONS:</b>
 
