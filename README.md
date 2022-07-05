@@ -40,7 +40,7 @@ YYYYMMDD -> its a good idea to include the date in the final file name<br>
 
 <b>qq_manhattan.R</b><br>
 This R script uses qqman package.<br>
-This package requires R-3.0.0 or later. On bluecrystal3 use: module load languages/R-3.0.2<br>
+This package requires R-3.0.0 or later. <br>
 Install package using: install.package(qqman)<br>
 Change read.table file to own filename<br>
 Define columns with relevant data in 'DATA' object<br>
