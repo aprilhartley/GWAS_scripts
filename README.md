@@ -16,8 +16,10 @@ Updated from Lavinia Paternoster's code https://github.com/epxlp/GWAS_scripts fo
 strings to edit:<br>
 PATH_TO/MOTHERS.sample -> change to relevant path for current .sample phenotype file<br>
 *****ENSURE the .sample file order matches the imputed data - everyone in the imputed data must be included in .sample*****<br>
+Remember to use the ALSPAC syntax to exclude withdrawal of consent as these individuals may not be in the genetic exclusion lists:  \\ads.bris.ac.uk\Filestore\SSCM ALSPAC\Data\Syntax\Withdrawal of consent
 PHENO -> change to column name for phenotype<br>
 COVARS -> change to column names for covariates<br>
+  PCs can be found on BC4 here: /mnt/storage/private/alspac/1/alspac/studies/latest/alspac/genetic/variants/arrays/gwas/imputed/hrc/released/2015-10-30/data/derived/principal_components
 PATH_TO.log -> change to path where results will be stored<br>
 PATH_TO.out -> change to path where SNPTEST output will be stored<br>
 
