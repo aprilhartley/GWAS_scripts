@@ -28,4 +28,6 @@ manhattan(DATA, p="P", chr="CHR", bp="BP", snp="SNP", ylim=c(0, 20))
 dev.off()
 args(manhattan) # see what arguements you can give to manhattan command and try a custom plot
 
+tiff("my_qqplot.tif")
 qq(P)
+dev.off()
