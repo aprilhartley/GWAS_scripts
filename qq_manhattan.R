@@ -6,7 +6,7 @@
 #==========================#
 
 # qqman requires R-3.0.0
-# on bluecrystal p3: module load languages/R-3.0.2
+# on bluecrystal p4: module load languages/r/4.1.0
 # install.packages(qqman)
 
 library(qqman)
