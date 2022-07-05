@@ -23,7 +23,9 @@ BP <- results$position
 P <- results$p.value
 DATA <- data.frame(SNP, CHR, BP, P)
 
+tiff("my_manhattan_plot.tif")
 manhattan(DATA, p="P", chr="CHR", bp="BP", snp="SNP", ylim=c(0, 20))
+dev.off()
 args(manhattan) # see what arguements you can give to manhattan command and try a custom plot
 
 qq(P)
